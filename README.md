@@ -1,0 +1,1 @@
+# operaific-download-manager
