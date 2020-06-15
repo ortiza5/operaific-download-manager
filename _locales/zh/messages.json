@@ -1,0 +1,334 @@
+{
+   "badChromeVersion": {
+      "description": "",
+      "message": "下载API仅在dev和beta版本上提供，请更新你的chrome软件。"
+   },
+   "contextMenuOpen": {
+      "description": "",
+      "message": "打开文件"
+   },
+   "contextMenuOpenFolder": {
+      "description": "",
+      "message": "打开所在文件夹"
+   },
+   "contextMenuGoToDownloadPage": {
+      "description": "",
+      "message": "转至下载页面"
+   },
+   "contextMenuDownloadLink": {
+      "description": "",
+      "message": "复制下载链接"
+   },
+   "contextMenuDeleteFromDisk": {
+      "description": "",
+      "message": "删除磁盘上的文件"
+   },
+   "contextMenuRemoveFromList": {
+      "description": "",
+      "message": "从列表中移除"
+   },
+   "translationTitle": {
+      "description": "",
+      "message": "Help with translation (帮助翻译)"
+   },
+   "AllDownloadsTitle": {
+      "description": "",
+      "message": "所有下载"
+   },
+   "optionsTitle": {
+      "description": "",
+      "message": "选项"
+   },
+   "cancelTitle": {
+      "description": "",
+      "message": "取消"
+   },
+   "clearAllTitle": {
+      "description": "",
+      "message": "清除所有可见下载项"
+   },
+   "clearAllText": {
+      "description": "",
+      "message": "清除所有下载项"
+   },
+   "clearCompletedTitle": {
+      "description": "",
+      "message": "清除已完成下载项"
+   },
+   "clearCompletedText": {
+      "description": "",
+      "message": "清除已完成"
+   },
+   "clearDeletedTitle": {
+      "description": "",
+      "message": "清除所有已删除下载"
+   },
+   "clearDeletedText": {
+      "description": "",
+      "message": "清除已删除"
+   },
+   "clearFailedTitle": {
+      "description": "",
+      "message": "清除失败的下载项"
+   },
+   "clearFailedText": {
+      "description": "",
+      "message": "清除失败的下载项"
+   },
+   "eraseTitle": {
+      "description": "",
+      "message": "从列表中清除"
+   },
+   "errorRemoved": {
+      "description": "",
+      "message": "移除"
+   },
+   "extDesc": {
+      "description": "Extension description",
+      "message": "快速轻松地管理和使用您的下载"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "下载管理器"
+   },
+   "grantManagementPermission": {
+      "description": "",
+      "message": "显示下载文件的扩展链接"
+   },
+   "loadingOlderDownloads": {
+      "description": "",
+      "message": "加载旧下载"
+   },
+   "managementPermissionInfo": {
+      "description": "",
+      "message": "有些文件是由一个扩展下载"
+   },
+   "month0abbr": {
+      "description": "",
+      "message": "一月"
+   },
+   "month10abbr": {
+      "description": "",
+      "message": "十一月"
+   },
+   "month11abbr": {
+      "description": "",
+      "message": "十二月"
+   },
+   "month1abbr": {
+      "description": "",
+      "message": "二月"
+   },
+   "month2abbr": {
+      "description": "",
+      "message": "三月"
+   },
+   "month3abbr": {
+      "description": "",
+      "message": "四月"
+   },
+   "month4abbr": {
+      "description": "",
+      "message": "五月"
+   },
+   "month5abbr": {
+      "description": "",
+      "message": "六月"
+   },
+   "month6abbr": {
+      "description": "",
+      "message": "七月"
+   },
+   "month7abbr": {
+      "description": "",
+      "message": "八月"
+   },
+   "month8abbr": {
+      "description": "",
+      "message": "九月"
+   },
+   "month9abbr": {
+      "description": "",
+      "message": "十月"
+   },
+   "openDownloadsFolderTitle": {
+      "description": "",
+      "message": "打开下载文件夹"
+   },
+   "openDownloadsFolderText": {
+      "description": "",
+      "message": "下载文件夹"
+   },
+   "settingsTitle": {
+      "description": "",
+      "message": "设置"
+   },
+   "settingsText": {
+      "description": "",
+      "message": "设置"
+   },
+   "openTitle": {
+      "description": "",
+      "message": "打开文件"
+   },
+   "openWhenCompleteDays": {
+      "description": "",
+      "message": "在$days$天 $hours$小时后打开",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         },
+         "hours": {
+            "content": "$2",
+            "example": "23"
+         }
+      }
+   },
+   "openWhenCompleteFinishing": {
+      "description": "",
+      "message": "在几秒钟内打开"
+   },
+   "openWhenCompleteHours": {
+      "description": "",
+      "message": "在$hours$小时 $mins$分钟后打开",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "23"
+         },
+         "mins": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "openWhenCompleteMinutes": {
+      "description": "",
+      "message": "在$mins$分钟 $sec$秒后打开",
+      "placeholders": {
+         "mins": {
+            "content": "$1",
+            "example": "59"
+         },
+         "sec": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "openWhenCompleteSeconds": {
+      "description": "",
+      "message": "在$sec$秒后打开",
+      "placeholders": {
+         "sec": {
+            "content": "$1",
+            "example": "59"
+         }
+      }
+   },
+   "pauseTitle": {
+      "description": "",
+      "message": "暂停"
+   },
+   "referrerTitle": {
+      "description": "",
+      "message": "引用页"
+   },
+   "removeFileTitle": {
+      "description": "",
+      "message": "从列表中移除"
+   },
+   "resumeTitle": {
+      "description": "",
+      "message": "继续"
+   },
+   "retryTitle": {
+      "description": "",
+      "message": "重试"
+   },
+   "searchPlaceholder": {
+      "description": "",
+      "message": "搜索..."
+   },
+   "searching": {
+      "description": "",
+      "message": "搜索..."
+   },
+   "showInFolderTitle": {
+      "description": "Alt text for show in folder icon",
+      "message": "打开文件夹"
+   },
+   "showOlderDownloads": {
+      "description": "",
+      "message": "显示所有下载"
+   },
+   "tabTitle": {
+      "description": "tab title",
+      "message": "下载"
+   },
+   "timeLeftDays": {
+      "description": "",
+      "message": "剩余 $days$天 $hours$小时",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         },
+         "hours": {
+            "content": "$2",
+            "example": "23"
+         }
+      }
+   },
+   "timeLeftFinishing": {
+      "description": "",
+      "message": "结束中..."
+   },
+   "timeLeftHours": {
+      "description": "",
+      "message": "剩余 $hours$小时 $mins$分钟",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "23"
+         },
+         "mins": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "timeLeftMinutes": {
+      "description": "",
+      "message": "剩余 $mins$分钟 $sec$秒",
+      "placeholders": {
+         "mins": {
+            "content": "$1",
+            "example": "59"
+         },
+         "sec": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "timeLeftSeconds": {
+      "description": "",
+      "message": "剩余 $sec$秒",
+      "placeholders": {
+         "sec": {
+            "content": "$1",
+            "example": "59"
+         }
+      }
+   },
+   "zeroItems": {
+      "description": "",
+      "message": "没有下载记录"
+   },
+   "zeroSearchResults": {
+      "description": "",
+      "message": "无法找到任何匹配的下载项"
+   }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title></title>
+
+  <script src="jquery.js"></script>
+  <script src="jquery.contextMenu.js"></script>
+  <script src="jquery.ui.position.js"></script>
+  <script src="popup.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/popup.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.contextMenu.css">
+  <link rel="icon" href="icon19.png">
+</head>
+
+<body>
+  <div id="outer">
+
+    <div id="head">
+      <!-- <a id="bad-chrome-version" hidden href="https://www.google.com/intl/en/chrome/browser/beta.html"></a> -->
+
+      <!-- <div id="q-outer">
+        <div class="search_icon">
+          <img class="top_icon" src="icons/search.png">
+        </div>
+        <div class="search_bar">
+          <input type="search" class="search" id="q" incremental="" placeholder="Search..."><br>&nbsp;
+        </div>
+      </div> -->
+
+      <!-- <span id="empty" hidden></span> -->
+      <h6>Downloads</h6>
+
+      <a href="downloads.html" target="_blank" id="help" class="btn-top" title="Settings">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -256 28672 28672" width="16" height="16">
+          <path
+            d="M17774 14080q0-1424-1007-2431t-2431-1007q-1424 0-2431 1007t-1007 2431q0 1424 1007 2431t2431 1007q1424 0 2431-1007t1007-2431zm6876-1464v2982q0 161-107 309-107 147-269 174l-2484 376q-255 725-524 1222 470 672 1437 1854 134 161 134 335 0 175-120 309-363 497-1330 1451-967 953-1263 953-161 0-349-120l-1853-1451q-591 309-1222 510-215 1827-390 2498-94 376-483 376h-2982q-188 0-329-114t-154-288l-376-2472q-658-214-1209-497l-1894 1438q-134 120-335 120-188 0-336-147-1692-1531-2216-2257-94-134-94-309 0-161 107-308 202-282 685-894 484-611 725-946-362-672-550-1330l-2458-363q-175-26-282-167-107-142-107-316v-2982q0-161 107-309 107-147 255-174l2498-376q188-618 524-1236-537-765-1437-1853-134-161-134-322 0-135 120-309 350-484 1323-1444 974-960 1270-960 174 0 349 134l1853 1437q591-309 1222-510 215-1827 390-2498 94-376 483-376h2982q188 0 329 114t154 288l376 2472q658 214 1209 497l1907-1438q121-120 322-120 175 0 336 134 1733 1598 2216 2283 94 108 94 296 0 161-107 308-202 282-685 894-484 611-725 946 349 672 550 1317l2458 376q175 26 282 167 107 142 107 316z" />
+          </svg>
+      </a>
+
+    </div>
+
+    <!-- <div id="searching" hidden></div> -->
+    <!-- <div id="search-zero" hidden></div> -->
+    <div id="items"></div>
+    <!-- <div class="older mybtn" id="older"></div> -->
+    <div class="older" id="older"></div>
+    <span id="loading-older" hidden></span>
+    <div id="request-management-permission" hidden>
+      <div id="management-permission-info"></div>
+      <a href="#" id="grant-management-permission"></a>
+    </div>
+  </div>
+
+  <div class="item" draggable="true" hidden>
+    <div class="wrapper_top">
+      <img class="icon" src="icon38.png">
+
+      <div class="more" hidden>
+        <span class="more-left">
+          <div class="start-time1"></div>
+          <div class="complete-size1"></div>
+        </span>
+        <a href="#" class="by-ext"><img /></a>
+      </div>
+
+
+
+      <div class="wrapper">
+        <span class="file-url">
+          <div class="file-url-head">
+            <span class="removed"></span>
+            <a href="#" class="open-filename"></a>
+
+          </div>
+
+          <div class="second">
+            <span id="size" class="complete-size"></span>
+            <span class="dash"> &nbsp;&nbsp; </span>
+            <span class="ref"></span>
+            <span class="dash"> </span>
+            <span id="time" class="start-time"></span>
+
+
+            <span class="in-progress">
+              <span class="myprogress"></span>
+              <span class="speed"></span>
+              <span class="dash"> &nbsp; </span>
+              <span class="time-left"></span>
+            </span>
+
+          </div>
+
+        </span>
+        <div class="info">
+          <div class="r_info" hidden>
+            <a href="#" class="referrer btn"></a>
+            <a href="#" class="show-folder btn"></a>
+            <span class="remove-file "></span>
+            <span class="erase "></span>
+            <span class="url " download=""></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="progress1">
+      <div class="meter"><span /></div>
+      <div class="pro">
+        <a href="#" class="pause"><i class="fa fa-pause"></i></a>
+        <a href="#" class="resume"><i class="fa fa-play"></i></a>
+        <a href="#" class="cancel"><i class="fa fa-times"></i></a>
+
+
+      </div>
+    </div>
+
+  </div>
+  <!-- <div class="options" id="options-pane">
+    <ul class="dropdown-menu pull-right">
+      <li>
+        <a href="#" id="open-folder">
+          <i class="icon-folder-open"></i>
+          <span id="open-folder-text">Downloads Folder</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" id="clear-all">
+          <i class="icon-trash"></i>
+          <span id="clear-all-text">Clear All</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="clear-completed">
+          <i class="icon-trash"></i>
+          <span id="clear-completed-text">Clear Completed</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="clear-deleted">
+          <i class="icon-trash"></i>
+          <span id="clear-deleted-text">Clear Deleted</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="clear-failed">
+          <i class="icon-trash"></i>
+          <span id="clear-failed-text">Clear Failed</span>
+        </a>
+      </li>
+      <li class="divider"></li>
+
+      <li>
+        <a href="downloads.html" target="_blank" id="help">
+          <i class="icon-cog"></i>
+          <span id="help-text">Settings</span>
+        </a>
+      </li>
+    </ul>
+
+  </div> -->
+  <span id="text-width-probe"></span>
+  <div class="top_option">
+    <a href="#" id="clear-all" class="btn-bottom">
+      <span id="clear-all-text">Clear All</span>
+    </a>
+    <!-- <a href="downloads.html#tr" id="translation" target="_blank" >
+    <i class="fa fa-exclamation-triangle fa-lg options_icon"></i>
+  </a> -->
+    <a href="#" id="all-downloads" target="_blank" class="btn-bottom">
+      <span id="clear-all-text">Show More</span>
+    </a>
+
+  </div>
+</body>
+
+</html>

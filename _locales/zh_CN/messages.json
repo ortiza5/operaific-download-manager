@@ -1,0 +1,10 @@
+﻿{
+   "extDesc": {
+      "description": "Extension description",
+      "message": "管理和使用您的快速轻松地下载互动"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "下载管理器"
+   }
+}

@@ -1,0 +1,334 @@
+﻿{
+   "badChromeVersion": {
+      "description": "",
+      "message": "The downloads API is only available on dev and beta channels. Update your chrome here."
+   },
+   "contextMenuOpen": {
+      "description": "",
+      "message": "Открыть"
+   },
+   "contextMenuOpenFolder": {
+      "description": "",
+      "message": "Расположение файла"
+   },
+   "contextMenuGoToDownloadPage": {
+      "description": "",
+      "message": "Перейти по ссылке"
+   },
+   "contextMenuDownloadLink": {
+      "description": "",
+      "message": "Копировать ссылку"
+   },
+   "contextMenuDeleteFromDisk": {
+      "description": "",
+      "message": "Удалить с диска"
+   },
+   "contextMenuRemoveFromList": {
+      "description": "",
+      "message": "Удалить из списка"
+   },
+   "translationTitle": {
+      "description": "",
+      "message": "Помощь с переводом"
+   },
+   "AllDownloadsTitle": {
+      "description": "",
+      "message": "Все загрузки"
+   },
+   "optionsTitle": {
+      "description": "",
+      "message": "Опции"
+   },
+   "cancelTitle": {
+      "description": "",
+      "message": "Отменить"
+   },
+   "clearAllTitle": {
+      "description": "",
+      "message": "Очистить все видимые загрузки"
+   },
+   "clearAllText": {
+      "description": "",
+      "message": "Очистить все"
+   },
+   "clearCompletedTitle": {
+      "description": "",
+      "message": "Очистить все завершенные загрузки"
+   },
+   "clearCompletedText": {
+      "description": "",
+      "message": "Очистить завершенные"
+   },
+   "clearDeletedTitle": {
+      "description": "",
+      "message": "Очистить от удаленных с диска загрузок"
+   },
+   "clearDeletedText": {
+      "description": "",
+      "message": "Очистить удаленные"
+   },
+   "clearFailedTitle": {
+      "description": "",
+      "message": "Очистить все неудавшиеся загрузки"
+   },
+   "clearFailedText": {
+      "description": "",
+      "message": "Очистить неудавшиеся"
+   },
+   "eraseTitle": {
+      "description": "",
+      "message": "Очистка списка"
+   },
+   "errorRemoved": {
+      "description": "",
+      "message": "Удалено"
+   },
+   "extDesc": {
+      "description": "Extension description",
+      "message": "Легкий и быстрый способ упраления вашими загрузками"
+   },
+   "extName": {
+      "description": "Extension name", 
+      "message": "Менеджер загрузок"
+   },
+   "grantManagementPermission": {
+      "description": "",
+      "message": "Показывать ссылки к загружаемым файлам"
+   },
+   "loadingOlderDownloads": {
+      "description": "",
+      "message": "Показать старые загрузки"
+   },
+   "managementPermissionInfo": {
+      "description": "",
+      "message": "Некоторые файлы были загружены расширением"
+   },
+   "month0abbr": {
+      "description": "",
+      "message": "янв"
+   },
+   "month10abbr": {
+      "description": "",
+      "message": "ноя"
+   },
+   "month11abbr": {
+      "description": "",
+      "message": "дек"
+   },
+   "month1abbr": {
+      "description": "",
+      "message": "фев"
+   },
+   "month2abbr": {
+      "description": "",
+      "message": "март"
+   },
+   "month3abbr": {
+      "description": "",
+      "message": "апр"
+   },
+   "month4abbr": {
+      "description": "",
+      "message": "май"
+   },
+   "month5abbr": {
+      "description": "",
+      "message": "июнь"
+   },
+   "month6abbr": {
+      "description": "",
+      "message": "июль"
+   },
+   "month7abbr": {
+      "description": "",
+      "message": "авг"
+   },
+   "month8abbr": {
+      "description": "",
+      "message": "сент"
+   },
+   "month9abbr": {
+      "description": "",
+      "message": "окт"
+   },
+   "openDownloadsFolderTitle": {
+      "description": "",
+      "message": "Открыть папку с загрузками"
+   },
+   "openDownloadsFolderText": {
+      "description": "",
+      "message": "Папка загрузок"
+   },
+   "settingsTitle": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "settingsText": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "openTitle": {
+      "description": "",
+      "message": "Открыть"
+   },
+   "openWhenCompleteDays": {
+      "description": "",
+      "message": "Открытие через $days$д $hours$ч",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         },
+         "hours": {
+            "content": "$2",
+            "example": "23"
+         }
+      }
+   },
+   "openWhenCompleteFinishing": {
+      "description": "",
+      "message": "Открыть сейчас"
+   },
+   "openWhenCompleteHours": {
+      "description": "",
+      "message": "Открытие через $hours$ч $mins$м",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "23"
+         },
+         "mins": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "openWhenCompleteMinutes": {
+      "description": "",
+      "message": "Открытие в $mins$м $sec$с",
+      "placeholders": {
+         "mins": {
+            "content": "$1",
+            "example": "59"
+         },
+         "sec": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "openWhenCompleteSeconds": {
+      "description": "",
+      "message": "Открытие в $sec$с",
+      "placeholders": {
+         "sec": {
+            "content": "$1",
+            "example": "59"
+         }
+      }
+   },
+   "pauseTitle": {
+      "description": "",
+      "message": "Пауза"
+   },
+   "referrerTitle": {
+      "description": "",
+      "message": "Ссылка"
+   },
+   "removeFileTitle": {
+      "description": "",
+      "message": "Удалить файл"
+   },
+   "resumeTitle": {
+      "description": "",
+      "message": "Продолжить"
+   },
+   "retryTitle": {
+      "description": "",
+      "message": "Попробовать снова"
+   },
+   "searchPlaceholder": {
+      "description": "",
+      "message": "Поиск..."
+   },
+   "searching": {
+      "description": "",
+      "message": "Поиск..."
+   },
+   "showInFolderTitle": {
+      "description": "",
+      "message": "Показать в папке"
+   },
+   "showOlderDownloads": {
+      "description": "",
+      "message": "Показать старые загрузки"
+   },
+   "tabTitle": {
+      "description": "tab title",
+      "message": "Загрузки"
+   },
+   "timeLeftDays": {
+      "description": "",
+      "message": "Прошло $days$д $hours$ч",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "2"
+         },
+         "hours": {
+            "content": "$2",
+            "example": "23"
+         }
+      }
+   },
+   "timeLeftFinishing": {
+      "description": "",
+      "message": "Окончание..."
+   },
+   "timeLeftHours": {
+      "description": "",
+      "message": "$hours$ч $mins$м осталось",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "23"
+         },
+         "mins": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "timeLeftMinutes": {
+      "description": "",
+      "message": "$mins$м $sec$с осталось",
+      "placeholders": {
+         "mins": {
+            "content": "$1",
+            "example": "59"
+         },
+         "sec": {
+            "content": "$2",
+            "example": "59"
+         }
+      }
+   },
+   "timeLeftSeconds": {
+      "description": "",
+      "message": "$sec$с осталось",
+      "placeholders": {
+         "sec": {
+            "content": "$1",
+            "example": "59"
+         }
+      }
+   },
+   "zeroItems": {
+      "description": "",
+      "message": "Пусто."
+   },
+   "zeroSearchResults": {
+      "description": "",
+      "message": "Нет результатов"
+   }
+}
